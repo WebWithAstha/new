@@ -8,7 +8,7 @@ const Footer = () => {
                     <img className='w-full h-full object-top object-cover' src="https://plus.unsplash.com/premium_photo-1690407617542-2f210cf20d7e?q=80&w=1887&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="" />
                 </div>
                 <div className="">
-                <h1 className='md:text-9xl text-6xl md:leading-[10px] w-[60%] mb-4 md:mb-4'>Let's connect</h1>
+                <h1 className='md:text-9xl text-6xl md:leading-none w-[60%] mb-4 md:mb-4'>Let's connect</h1>
                 <div className="flex flex-wrap gap-4 md:gap-6">
                 <h1 className='font-[playfair] text-3xl md:text-4xl'>Instagram</h1>
                 <h1 className='font-[playfair] text-3xl md:text-4xl'>Linkedin</h1>
