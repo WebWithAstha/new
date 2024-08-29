@@ -14,3 +14,8 @@
     font-family: bonney;
     src: url(./assets/fonts/Bonny-Variable.ttf);
 }
+
+::selection{
+    background-color: #b3b390;
+    color: #535353;
+}

@@ -9,6 +9,7 @@ import { useGSAP } from '@gsap/react'
 import gsap from 'gsap'
 import Cursor from '../partials/Cursor'
 import { ScrollTrigger } from 'gsap/ScrollTrigger';
+import SvgFlower from '../partials/SvgFlower'
 
 const Home = () => {
   gsap.registerPlugin(ScrollTrigger);
@@ -61,6 +62,11 @@ const Home = () => {
 
   return (
     <>
+    <div className="w-full h-screen z-[9] fixed top-0 left-0 bg-black/[.7] text-zinc-200  flex flex-col md:gap-6 items-center md:pt-64 pt-40">
+    <SvgFlower/>
+    <h1 className='font-[playfair] mb-4 md:mb-0 md:w-max mx-auto md:text-5xl text-4xl'>Under Construction </h1>
+    <p>You can scroll though</p>
+    </div>
       <Cursor />
       <div className="w-full min-h-screen overflow-x-hidden bg-zinc-100">
         <Nav />
