@@ -16,7 +16,7 @@ const Hero = () => {
                     
                 </div>
 
-                <div className="img md:w-[30vw] h-[40vh] md:h-[60vh] overflow-hidden">
+                <div className="img md:w-[30vw] h-[40vh] md:h-[60vh] md:mt-20 overflow-hidden">
                     <img className='w-full h-full md:object-top object-cover' src={img} alt="" />
                 </div>
             </div>

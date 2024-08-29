@@ -45,7 +45,7 @@ const OverviewWork = () => {
           <div className="absolute top-1/2 left-1/2 shadow-lg bg-zinc-400 -translate-x-1/2 -translate-y-1/2 md:ml-4 md:w-[30vw] w-[65vw] md:h-[40vh] z-[1] flex gap-4 items-center justify-center flex-wrap shrink-0 border -rotate-0 md:p-10">
           <img className='w-full h-full object-cover' src="https://cdn.dribbble.com/userupload/15421293/file/original-2e18f215f86caf9d54524fa0ea1ab484.jpg?resize=400x300&vertical=center" alt="" />
           </div>
-          <div className="absolute top-1/2 left-1/2 shadow-lg bg-zinc-300 -translate-x-1/2 md:translate-x-[20%] md-translate-y-1/2 md:ml-4 md:w-[30vw] w-[65vw] md:h-[40vh] flex gap-4 items-center justify-center flex-wrap shrink-0 border rotate-12 md:p-10">
+          <div className="absolute top-1/2 left-1/2 shadow-lg bg-zinc-300 -translate-x-1/2 md:translate-x-[20%] md:-translate-y-1/2 md:ml-4 md:w-[30vw] w-[65vw] md:h-[40vh] flex gap-4 items-center justify-center flex-wrap shrink-0 border rotate-12 md:p-10">
           <img className='w-full h-full object-cover' src="https://cdn.dribbble.com/userupload/13960546/file/still-aee98eab7d907c9ec259f4de94c3ebc1.png?resize=450x338&vertical=center" alt="" />
           </div>
 
